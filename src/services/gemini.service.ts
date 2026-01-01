@@ -1,6 +1,8 @@
 
 import { Injectable } from '@angular/core';
-import { GoogleGenAI, Type, SchemaType } from '@google/genai';
+//import { GoogleGenAI, Type, SchemaType } from '@google/genai';
+import { GoogleGenAI, Type } from '@google/genai';  // ✅ CORRETTO
+
 
 @Injectable({
   providedIn: 'root'
